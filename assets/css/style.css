@@ -1,30 +1,134 @@
 body{
-    background-color: #efeee7;
-    width:800px;
+    background-color: #4aaaa5;
+    width: 960px;
     margin: 0 auto;
     padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    text-align: left;
+}
+
+p{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
 }
 
 h1{
-    font-size: 28px;
+    margin-top: 0;
     padding: 20px;
     margin-bottom: 20px;
+    text-align: left;
+    color:black;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+canvas{
+    background: blue;
+    display: grid;
+    z-index: -10;
+    position: fixed !important;
+    padding: 0;
+    margin: auto;
+}
+
+#contact-info{
+    height: 240px;
+    background-color: #91D8D5;
+    text-align: center;
+}
+
+ul{
+    padding: 10px;
+    list-style-type: disc;
+    list-style-position: inside;
+
 }
 
 #content{
-    /* width:800px; */
+    
+    background-color: #91D8D5;
+    border-color: #777777;
+    border: 5px;
     margin: 0 auto; 
-    margin-left: 10%;
     margin-top: 5%;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+    height: 260px;
+}
+
+.portfolio{
+    display: flex;
+
+    flex-flow: row wrap;
+
+    justify-content: space-around;
+    height: 600px;
+    background-color: #91D8D5;
+}
+
+.project{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border: 5px;
+}
+
+.portImg{
+    width: 225px;
+    height: 225px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+
+
+li{
+    width: 160px;
+}
+
+.contact{
+    display: flex;
+    color: #777777;
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
 }
 
 #nav{
     float: right;
     width: auto;
-    margin-top: 3.5%;
     font-variant: all-petite-caps;
+}
+
+#aboutMe{
+    height: 240px;
 }
 
 #logo{
@@ -35,12 +139,16 @@ h1{
     text-align: center;
 }
 .wrapper{
+    height: 896px;
     width: auto;
     margin: 0 auto;
 }
 
-#topBar{
-    /* margin:0; */
+.portLink{
+    text-decoration: none;
+    font-size: 22px;
+    color: #777777
+    
 }
 
 .navBar{
@@ -55,8 +163,8 @@ h1{
 }
 
 .image{
-    max-width: 25%;
-    max-width: 25%;
+    max-width: 240px;
+    max-width: 240px;
     margin-right: 20px;
     float: left;
 }
